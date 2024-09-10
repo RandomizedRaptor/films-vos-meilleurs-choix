@@ -1,3 +1,10 @@
+@use 'partials/cards';
+@use 'partials/variables';
+
+body {
+  background-color: var($primary);
+}
+
 .top-picks {
   position: relative;
   padding: 50px;
